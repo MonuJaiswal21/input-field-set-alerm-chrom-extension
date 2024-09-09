@@ -1,0 +1,18 @@
+
+{
+  "manifest_version": 3,
+  "name": "Alarm Extension",
+  "version": "1.0",
+  "description": "Set the alarm",
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
